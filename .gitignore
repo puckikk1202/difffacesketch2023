@@ -1,0 +1,16 @@
+datasets/
+ddpm_logs/
+sketch_ae/outputs/ 
+sketch_ae/sketch_ae.zip
+runs/
+painter/
+test_draw/
+wandb/
+backup/
+resources/
+ldm_vae/models/first_stage_models/kl-f4/model.ckpt
+ldm_vae/models/first_stage_models/vq-f4/model.ckpt
+ldm_vae/models/first_stage_models/vq-f4/vqvae_custom_last.pth
+ldm_vae/models/ldm/cin256-v2/model.ckpt
+taming/modules/autoencoder/lpips/vgg.pth
+ldm_vae/taming/modules/autoencoder/lpips/vgg.pth
