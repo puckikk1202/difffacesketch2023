@@ -1,11 +1,11 @@
 absl-py==1.0.0
 agate==1.6.2
-agate-dbf @ file:///tmp/build/80754af9/agate-dbf_1600131906274/work
-agate-excel @ file:///tmp/build/80754af9/agate-excel_1630598164320/work
 agate-sql==0.5.8
 aiohttp==3.8.1
 aiosignal==1.2.0
+albumentations==1.3.0
 antlr4-python3-runtime==4.9.3
+appdirs==1.4.4
 argon2-cffi==21.3.0
 argon2-cffi-bindings==21.2.0
 async-generator==1.10
@@ -13,23 +13,20 @@ async-timeout==4.0.2
 asynctest==0.13.0
 atomicwrites==1.4.1
 attrs==22.1.0
-Babel @ file:///tmp/build/80754af9/babel_1620871417480/work
-backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+audioread==3.0.0
 bleach==4.1.0
 blobfile==0.11.0
+boto3==1.23.10
+botocore==1.26.10
 cachetools==4.2.4
 certifi==2021.5.30
 cffi==1.15.1
 charset-normalizer==2.0.9
 click==8.0.4
-colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
-csvkit @ file:///C:/ci/csvkit_1600336075699/work
-cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
+cryptography==40.0.1
 Cython==0.29.32
 cython-bbox==0.1.3
-dataclasses @ file:///tmp/build/80754af9/dataclasses_1614363715916/work
 dbfread==2.0.7
-decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
 defusedxml==0.7.1
 dlib==19.24.0
 docker-pycreds==0.4.0
@@ -39,7 +36,9 @@ entrypoints==0.3
 et-xmlfile==1.1.0
 face-alignment==1.3.4
 facenet-pytorch==2.5.2
+ffmpeg==1.4
 filelock==3.4.1
+freetype-py==2.2.0
 frozenlist==1.2.0
 fsspec==2022.1.0
 future==0.18.2
@@ -47,36 +46,30 @@ gitdb==4.0.9
 GitPython==3.1.18
 google-auth==2.3.3
 google-auth-oauthlib==0.4.6
-greenlet @ file:///C:/ci/greenlet_1628888263395/work
 grpcio==1.42.0
+huggingface-hub==0.0.8
 idna==3.3
 idna-ssl==1.1.0
 imageio==2.13.1
 importlib-metadata==4.8.2
 # Editable install with no version control (improved-diffusion==0.0.0)
--e d:\improved-diffusion-main
 iniconfig==1.1.1
-ipykernel @ file:///D:/bld/ipykernel_1620913140366/work/dist/ipykernel-5.5.5-py3-none-any.whl
-ipython @ file:///C:/ci/ipython_1593446240034/work
-ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
 ipywidgets==7.7.2
-isodate @ file:///Users/ktietz/demo/mc3/conda-bld/isodate_1630584690429/work
 jedi==0.17.0
 Jinja2==3.0.3
+jmespath==0.10.0
 joblib==1.1.0
 jsonschema==3.2.0
 jupyter==1.0.0
-jupyter-client @ file:///opt/conda/conda-bld/jupyter_client_1643638337975/work
 jupyter-console==6.4.3
-jupyter-core @ file:///C:/ci/jupyter_core_1633402348205/work
 jupyterlab-pygments==0.1.2
 jupyterlab-widgets==1.1.1
-kiwisolver @ file:///C:/ci/kiwisolver_1612282446297/work
 leather==0.3.3
+librosa==0.9.2
+llvmlite==0.36.0
 lmdb==1.3.0
 Markdown==3.3.6
 MarkupSafe==2.0.1
-matplotlib @ file:///C:/ci/matplotlib-suite_1613408055530/work
 mistune==0.8.4
 mkl-fft==1.3.0
 mkl-random==1.1.1
@@ -86,27 +79,23 @@ multidict==5.2.0
 nbclient==0.5.9
 nbconvert==6.0.7
 nbformat==5.1.3
-nest-asyncio @ file:///tmp/build/80754af9/nest-asyncio_1613680548246/work
+networkx==2.5.1
+nibabel==3.2.2
 notebook==6.4.10
-numpy @ file:///C:/ci/numpy_and_numpy_base_1603480701039/work
+numba==0.53.1
 oauthlib==3.1.1
 olefile==0.46
 omegaconf==2.2.3
 opencv-python-headless==4.5.4.60
-openpyxl @ file:///tmp/build/80754af9/openpyxl_1632777717936/work
 packaging==21.3
-pandas @ file:///C:/ci/pandas_1608056614942/work
 pandocfilters==1.5.0
 parsedatetime==2.6
-parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
 pathtools==0.1.2
-pickle5 @ file:///C:/ci/pickle5_1621432950183/work
-pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
 Pillow==8.4.0
 pluggy==1.0.0
+pooch==1.6.0
 prometheus-client==0.14.1
 promise==2.3
-prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1633440160888/work
 protobuf==3.19.1
 psutil==5.9.1
 py==1.11.0
@@ -115,63 +104,63 @@ pyasn1-modules==0.2.8
 pycparser==2.21
 pycryptodomex==3.15.0
 pyDeprecate==0.3.1
-Pygments @ file:///opt/conda/conda-bld/pygments_1644249106324/work
-pyparsing @ file:///tmp/build/80754af9/pyparsing_1635766073266/work
+pyglet==2.0.7
+PyOpenGL==3.1.0
+pyrender==0.1.45
 pyrsistent==0.18.0
 pytest==7.0.1
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
-python-slugify @ file:///tmp/build/80754af9/python-slugify_1620405669636/work
-pytimeparse @ file:///C:/ci/pytimeparse_1613409884213/work
 pytorch-fid==0.2.1
 pytorch-lightning==1.5.10
 pytz==2021.3
+PyWavelets==1.1.1
 pywin32==228
 pywinpty==1.1.6
 PyYAML==6.0
-pyzmq @ file:///C:/ci/pyzmq_1628276569449/work
 qtconsole==5.2.2
 QtPy==2.0.1
+qudida==0.0.4
+regex==2023.5.5
 requests==2.26.0
 requests-oauthlib==1.3.0
+resampy==0.4.2
 rsa==4.8
+s3transfer==0.5.2
+sacremoses==0.0.53
+scikit-image==0.17.2
 scikit-learn==0.24.2
-scipy==1.1.0
+scipy==1.5.4
 Send2Trash==1.8.0
+sentencepiece==0.1.99
 sentry-sdk==1.6.0
 setproctitle==1.2.3
 Shapely==1.8.5.post1
 shortuuid==1.0.9
-six @ file:///tmp/build/80754af9/six_1644875935023/work
 smmap==5.0.0
-SQLAlchemy @ file:///C:/ci/sqlalchemy_1626948547082/work
--e git+https://github.com/CompVis/taming-transformers@24268930bf1dce879235a7fddd0b2355b84d7ea6#egg=taming_transformers
+soundfile==0.12.1
 tensorboard==2.7.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.0
 tensorboardX==2.4.1
 terminado==0.12.1
+test-tube==0.7.5
 testpath==0.6.0
-text-unidecode @ file:///Users/ktietz/demo/mc3/conda-bld/text-unidecode_1629401354553/work
 threadpoolctl==3.1.0
+tifffile==2020.9.3
+tokenizers==0.10.3
 tomli==1.2.3
 torch==1.10.2
 torchaudio==0.10.2
 torchmetrics==0.8.2
-torchsearchsorted @ git+https://github.com/aliutkus/torchsearchsorted@22b628aa348abb854aef8660fed67d98b7676fc9
+torchsample==0.1.0
 torchvision==0.11.3
-tornado @ file:///C:/ci/tornado_1606942379977/work
 tqdm==4.62.3
-traitlets @ file:///C:/ci/traitlets_1632759765830/work
-typing_extensions @ file:///opt/conda/conda-bld/typing_extensions_1647553014482/work
-Unidecode @ file:///tmp/build/80754af9/unidecode_1614712377438/work
+transformers==4.6.1
+trimesh==3.21.7
 urllib3==1.26.7
 wandb==0.12.20
-wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
 webencodings==0.5.1
 Werkzeug==2.0.2
 widgetsnbextension==3.6.1
 wincertstore==0.2
-xlrd @ file:///tmp/build/80754af9/xlrd_1608072521494/work
 xmltodict==0.12.0
 yarl==1.7.2
-zipp @ file:///tmp/build/80754af9/zipp_1633618647012/work
